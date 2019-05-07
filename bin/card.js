@@ -1,27 +1,27 @@
 #!/usr/bin/env node
-// 👆 Used to tell Node.js that this is a CLI tool
 
-// Pull in our modules
 var chalk = require('chalk')
 var boxen = require('boxen')
 
-// Define options for Boxen
 let options = {
   padding: 1,
   margin: 1,
   borderStyle: 'round'
 }
-// Text + chalk definitions
+
 let data = {
-  'name': chalk.white('Mikeal Rogers /'),
-  'handle': chalk.cyan('mikeal'),
-  'work': chalk.white('Doing many things at Protocol Labs'),
-  'twitter': chalk.cyan('https://twitter.com/mikeal'),
-  'github': chalk.cyan('https://github.com/mikeal'),
-  'linkedin': chalk.cyan('https://linkedin.com/in/mikealrogers'),
-  'web': chalk.cyan('https://www.mikealrogers.com'),
-  'npx': chalk.white('npx mikeal'),
-  'labelWork': chalk.white.bold('      Work:'),
+  'name': chalk.white('Diagonal Systems /'),
+  'handle': chalk.cyan('diagonalsystems'),
+  'work': chalk.white(`Promote the prosperity of the city by 
+            protecting its people, businesses and 
+            infrastructure.
+            `),
+  'twitter': chalk.cyan('https://twitter.com/diagonalsystems'),
+  'github': chalk.cyan('https://github.com/diagonalsystems'),
+  'linkedin': chalk.cyan('https://www.linkedin.com/company/diagonal-systems'),
+  'web': chalk.cyan('https://www.diagonal.sh'),
+  'npx': chalk.white('npx diagonal'),
+  'labelWork': chalk.white.bold('      Why:'),
   'labelTwitter': chalk.white.bold('   Twitter:'),
   'labelGitHub': chalk.white.bold('    GitHub:'),
   'labelLinkedIn': chalk.white.bold('  LinkedIn:'),
